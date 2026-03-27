@@ -1,4 +1,8 @@
 # functions here
+from mmf.B_01_MMF_v1 import tickets_sold
+from mmf.B_01_MMF_v2 import CREDIT_SURCHARGE
+
+
 def int_check(question):
     """Checks users enter an integer"""
 
@@ -74,7 +78,4 @@ while True:
     else:
         pass
 
-    # ask user for payment method (cash / credit / ca / cr)
-    pay_method = string_check("Payment method: ", payment_ans, 2)
-    print(f"{name} has bought a ticket ({pay_method})")
 
